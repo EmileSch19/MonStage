@@ -1,9 +1,9 @@
 import style from './index.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
-import pic1 from '@/public/main-tatouee-sombre-concoit-decoration-effrayante-halloween-generee-par-ia.jpg';
-import pic2 from '@/public/pexels-cottonbro-studio-10464545.jpg';
-import pic3 from '@/public/fond-ecran-halloween-main-zombie.jpg';
+import pic1 from '@/public/main-tatouee-sombre-concoit-decoration-effrayante-halloween-generee-par-ia.webp';
+import pic2 from '@/public/pexels-cottonbro-studio-10464545.webp';
+import pic3 from '@/public/fond-ecran-halloween-main-zombie.webp';
 
 export default function Parcours() {
   return (
@@ -36,6 +36,7 @@ export default function Parcours() {
                 <Image
                 alt='object'
                 fill={true}
+                        sizes='(max-width: 768px) 100vw, 50vw'
                 objectFit='cover'
                 src={pic2}
                 />
@@ -45,6 +46,7 @@ export default function Parcours() {
                 <Image
                 alt='object'
                 fill={true}
+                        sizes='(max-width: 768px) 100vw, 50vw'
                 objectFit='cover'
                 src={pic3}
                 />
@@ -56,6 +58,7 @@ export default function Parcours() {
                   <Image
                   alt='object'
                   fill={true}
+                        sizes='(max-width: 768px) 100vw, 50vw'
                   objectFit='cover'
                   src={pic1}
                   />
