@@ -70,9 +70,10 @@ export default function Form(props: any) {
             <div className={style.formContainer}>
             <div className={style.left}>
                 <Image 
-                    src={'/paysage-dystopique-ville-gens-futuristes.jpg'} 
+                    src={'/paysage-dystopique-ville-gens-futuristes.webp'} 
                     alt={'form paysage image'}
                     layout='fill'
+                    sizes='(max-width: 768px) 100vw, 50vw'
                     objectFit='cover'>
 
                 </Image>

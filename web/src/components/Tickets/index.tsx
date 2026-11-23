@@ -10,22 +10,22 @@ export default function Ticket()  {
         {
             preTitle : "PROUVEZ VOTRE COURAGE",
             title : "Affrontez vos Peurs.",
-            headerImage: "/Horror.png",
+            headerImage: "/Horror.webp",
             introText : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga sunt quis quod, maiores nam laborum delectus obcaecati rerum porro, assumenda enim est nostrum dignissimos. Odit deleniti quia voluptatibus rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga sunt quis quod, maiores nam laborum delectus obcaecati rerum porro, assumenda enim est nostrum dignissimos. Odit deleniti quia voluptatibus rerum!",
             ticketName: "Red Ticket",
             ticketGoal: "Séance d’horreur en groupe",
             ticketDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga sunt quis quod, maiores nam laborum delectus obcaecati rerum porro, assumenda enim est nostrum dignissimos.",
-            presentationImage: "/zombie-main-concept-theme-halloween.jpg"
+            presentationImage: "/zombie-main-concept-theme-halloween.webp"
         },
         {
             preTitle : "Soyez les héros de l’histoire ",
             title : "Sur les traces d’un serial killer.",
-            headerImage: "/Mistery.png",
+            headerImage: "/Mistery.webp",
             introText : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga sunt quis quod, maiores nam laborum delectus obcaecati rerum porro, assumenda enim est nostrum dignissimos. Odit deleniti quia voluptatibus rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga sunt quis quod, maiores nam laborum delectus obcaecati rerum porro, assumenda enim est nostrum dignissimos. Odit deleniti quia voluptatibus rerum!",
             ticketName: "BLUE Ticket",
             ticketGoal: "Trouvez le tueur",
             ticketDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga sunt quis quod, maiores nam laborum delectus obcaecati rerum porro, assumenda enim est nostrum dignissimos.",
-            presentationImage: "/officiers-afro-americains-examinant-casiers-judiciaires.jpg"
+            presentationImage: "/officiers-afro-americains-examinant-casiers-judiciaires.webp"
         },
     ]
 
@@ -110,7 +110,7 @@ export default function Ticket()  {
                 </div>
 
                 <div className={style.switcher}>
-                <input type="checkbox" id="toggle1" className={style.toggle} onChange={() => {setActiveTicket(!activeTicket)}} checked={activeTicket}/>   
+                <input type="checkbox" id="toggle1" aria-label="Changer de scénario (Horreur / Murder mystery)" className={style.toggle} onChange={() => {setActiveTicket(!activeTicket)}} checked={activeTicket}/>   
                 <div className={`${style.selector}`} id='selector'></div>
                 <label className={style.switchBar}></label>
                 

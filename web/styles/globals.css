@@ -6,35 +6,34 @@
   --green: 0, 174, 17;
  }
 
- @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
- @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
- @import url('https://fonts.googleapis.com/icon?family=Material+Icons+Round');
- @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
  @font-face {
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  font-display: block;
 }
 
 @font-face {
   font-family: 'LemonMilk';
-  src: url('/lemon-milk/LEMONMILK-REGULAR.otf') format('opentype');
+  src: url('/lemon-milk/LEMONMILK-REGULAR.OTF') format('opentype');
+  font-display: swap;
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'LemonMilk';
-  src: url('/lemon-milk/LEMONMILK-BOLD.otf') format('opentype');
+  src: url('/lemon-milk/LEMONMILK-BOLD.OTF') format('opentype');
+  font-display: swap;
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'LemonMilk';
-  src: url('/lemon-milk/LEMONMILK-LIGHT.otf') format('opentype');
+  src: url('/lemon-milk/LEMONMILK-LIGHT.OTF') format('opentype');
+  font-display: swap;
   font-weight: lighter;
   font-style: normal;
 }

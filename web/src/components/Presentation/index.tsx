@@ -1,7 +1,7 @@
 import style from './index.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
-import pic from '@/public/tourne-interieur-ancienne-installation-abandonnee-dans-ville-banlieue.jpg';
+import pic from '@/public/tourne-interieur-ancienne-installation-abandonnee-dans-ville-banlieue.webp';
 import { useEffect } from 'react';
 
 export default function Present(){
@@ -52,6 +52,7 @@ export default function Present(){
                         alt='object'
                         objectFit='cover'
                         fill={true}
+                        sizes='(max-width: 768px) 100vw, 50vw'
                         src={pic}
                     />
                 </div>

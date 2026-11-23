@@ -1,23 +1,25 @@
 import style from './index.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
-const bg = '/silhouette-zombie-effrayant-fond-dramatique.jpg'
-const pic = '/magnifying-glass-light-.png'
+const bg = '/silhouette-zombie-effrayant-fond-dramatique.webp'
+const pic = '/magnifying-glass-light-.webp'
 export default function Cover(props: any) {
     return (
         <div id='home'>
             <div className={style.backgroundParent}>
                 <Image
                     className={style.Background}
-                    alt="Background"
+                    alt=""
                     fill={true}
+                    priority
+                    sizes="100vw"
                     objectFit='cover'
                     src={bg}/>
                 </div>
 
                 <Image
                     className={style.Object}
-                    alt='object'
+                    alt='Loupe'
                     width={300}
                     height={150}
                     src={pic}/>

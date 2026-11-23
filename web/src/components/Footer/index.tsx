@@ -31,19 +31,19 @@ export default function Footer() {
     <div className={style.containerFooter} >
       <div className={style.recFooter}>
         <div className={style.socialMediaIcons}>
-          <Link href="URL_TO_FACEBOOK_PAGE" passHref>
+          <Link href="URL_TO_FACEBOOK_PAGE" passHref aria-label="Facebook">
             <FontAwesomeIcon icon={faFacebookF} className={style.iconFacebook} />
           </Link>
-          <Link href="URL_TO_INSTAGRAM_PAGE" passHref>
+          <Link href="URL_TO_INSTAGRAM_PAGE" passHref aria-label="Instagram">
             <FontAwesomeIcon icon={faInstagram} className={style.iconInstagram} />
           </Link>
-          <Link href="URL_TO_TWITTER_PAGE" passHref>
+          <Link href="URL_TO_TWITTER_PAGE" passHref aria-label="Twitter">
             <FontAwesomeIcon icon={faTwitter} className={style.iconTwitter} />
           </Link>
-          <Link href="URL_TO_WHATSAPP_PAGE" passHref>
+          <Link href="URL_TO_WHATSAPP_PAGE" passHref aria-label="WhatsApp">
             <FontAwesomeIcon icon={faWhatsapp} className={style.iconWhatsapp} />
           </Link>
-          <Link href="URL_TO_SNAPCHAT_PAGE" passHref>
+          <Link href="URL_TO_SNAPCHAT_PAGE" passHref aria-label="Snapchat">
             <FontAwesomeIcon icon={faSnapchatGhost} className={style.iconSnap} />
           </Link>
         </div>
